@@ -1,0 +1,7 @@
+MediSoft v2.1.0
+Registro de cambios
+
+- Se corrigió un error en el módulo de autenticación.
+- Se mejoró la validación de entradas del sistema.
+- Se actualizó la generación de reportes.
+- Se optimizó el manejo de sesiones concurrentes.

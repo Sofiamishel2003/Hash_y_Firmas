@@ -1,0 +1,8 @@
+MediSoft v2.1.0
+Manual de instalación
+
+1. Verificar que Python 3.10 o superior esté instalado.
+2. Configurar las variables de entorno del sistema.
+3. Ejecutar el instalador principal.
+4. Validar conectividad con la base de datos.
+5. Reiniciar los servicios después de la instalación.

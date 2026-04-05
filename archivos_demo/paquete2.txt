@@ -1,0 +1,8 @@
+MediSoft v2.1.0
+Módulos habilitados
+
+- Gestión de pacientes
+- Gestión de citas
+- Autenticación de usuarios
+- Reportes administrativos
+- Auditoría de accesos

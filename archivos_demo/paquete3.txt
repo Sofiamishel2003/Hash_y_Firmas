@@ -1,0 +1,8 @@
+MediSoft v2.1.0
+Configuración inicial del servidor
+
+HOST=127.0.0.1
+PORT=8000
+DB_NAME=medisoft
+DB_USER=admin
+LOG_LEVEL=INFO

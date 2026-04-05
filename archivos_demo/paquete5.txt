@@ -1,0 +1,6 @@
+MediSoft v2.1.0
+Licencia de distribución interna
+
+Este paquete está destinado únicamente para fines académicos.
+No se permite su redistribución comercial.
+El uso del sistema debe seguir las políticas de seguridad institucionales.
