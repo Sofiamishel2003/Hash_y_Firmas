@@ -2,6 +2,7 @@
 
 ## Autor
 Sofía Velásquez
+
 Universidad del Valle de Guatemala  
 Cifrados de Información — 2026  
 
@@ -112,8 +113,7 @@ Se compararon:
 * `medisoft-v2.1.0`
 
 El número de bits cambiados en SHA-256 es alto (120 bits).
-[Resultado](imagenes/explorar_hashes.png)
-
+![Resultado].(imagenes/explorar_hashes.png)
 
 **Conclusión:**
 Un cambio mínimo produce una gran diferencia en el hash → efecto avalancha.
@@ -144,7 +144,7 @@ Se evaluaron contraseñas comunes:
 * `hospital`
 * `medisoft2024`
   
-[Resultado](imagenes/generacion_claves.png)
+![Resultado].(imagenes/generacion_claves.png)
 
 Las primeras aparecen millones de veces en filtraciones.
 
@@ -177,7 +177,7 @@ Se firmó el archivo `SHA256SUMS.txt` con RSA.
 * Se modificó el manifiesto
 * Resultado: `FIRMA INVÁLIDA`
 
-[Resultado](imagenes/test_firma.png)
+![Resultado].(imagenes/test_firma.png)
 
 **Conclusión:**
 La firma garantiza autenticidad e integridad del manifiesto.
@@ -200,7 +200,7 @@ NO protege directamente los archivos del paquete.
 
 #### ¿Qué pasa al ejecutar verificar_paquete.py?
 
-[Resultado](imagenes/test_paquetes.png)
+![Resultado].(imagenes/test_paquetes.png)
 
 * Detecta el archivo alterado
 * Marca el sistema como `COMPROMETIDO`
@@ -243,6 +243,6 @@ Se debe usar HMAC en lugar de hashes simples.
 ```bash
 pytest -v
 ```
-[Resultado](imagenes/test_hashes.png)
+![Resultado].(imagenes/test_hashes.png)
 
 Todas las pruebas pasan correctamente.
